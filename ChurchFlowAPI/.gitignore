@@ -1,0 +1,79 @@
+######################
+# ASP.NET Core Files #
+######################
+
+# Build folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS & Rider
+.vs/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Auto-generated files
+*.dbmdl
+*.ldb
+
+# ASP.NET secret config
+secrets.json
+appsettings.Production.json
+appsettings.*.local.json
+
+# EF Core SQLite or other DBs (if any)
+*.db
+
+###########################
+# Frontend (Angular/Ionic)#
+###########################
+
+# Node modules and build
+node_modules/
+dist/
+wwwroot/dist/
+wwwroot/node_modules/
+
+# Environment files (Angular)
+.env
+.env.local
+.env.*.local
+
+####################
+# System Settings  #
+####################
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+####################
+# npm / yarn files #
+####################
+package-lock.json
+yarn.lock
+
+#################
+# JetBrains IDE #
+#################
+.idea/
+*.iml
+out/
+
+##############
+# Swagger UI #
+##############
+wwwroot/swagger-ui/
